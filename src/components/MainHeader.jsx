@@ -11,7 +11,7 @@ function MainHeader() {
         React Poster
       </h1>
       <p>
-        <Link to="/create-post" className={classes.button}>
+        <Link to="/create-post" className={classes.button} >
           <MdPostAdd size={18} />
           New Post
         </Link>
